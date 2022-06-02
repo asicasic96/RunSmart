@@ -1,0 +1,39 @@
+.feedback {
+    hr {
+        margin: 50px 0;
+        width: 940px;
+        height: 1px;
+        background-color: #c2c1c1;
+    }
+    &__wrapper {
+        margin-top: 50px;
+        display: flex;
+        justify-content: flex-start;
+    }
+    &__img {
+        width: 169px;
+        height: 169px;
+        margin-right: 62px;
+    }
+    &__header {
+        color: #0d0d0d;
+        font-size: 18px;
+        font-weight: 700;
+        text-align: left;
+        span {
+            color: #646464;
+            font-size: 14px;
+            font-weight: 300;
+        }
+    }
+    &__footer {
+        width: 650px;
+        margin-top: 10px;
+        color: #0d0d0d;
+        font-family: "Museo Sans Cyrl -300";
+        font-size: 16px;
+        font-weight: 300;
+        text-align: left;
+        line-height: 18px;
+    }
+}

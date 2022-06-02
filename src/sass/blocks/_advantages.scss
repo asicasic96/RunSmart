@@ -1,0 +1,37 @@
+.advantages {
+    min-height: 470px;
+    background-color: #f6f6f6;
+    padding: 70px 0 81px 0;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-top: 65px;
+    }
+    &__icon {
+        display: block;
+        margin: 0 auto;
+        &_animated {
+            animation: heartbeat 1.5s ease infinite
+            
+        }
+    }
+    &__title {
+        margin-top: 38px;
+        color: #0d0d0d;
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center;
+    }
+    &__descr {
+        width: 247px;
+        margin-top: 26px;
+        color: #0d0d0d;
+        font-size: 14px;
+        font-weight: 300;
+        text-align: center;
+        span {
+            color: #ff0000;
+        }
+    }
+}
